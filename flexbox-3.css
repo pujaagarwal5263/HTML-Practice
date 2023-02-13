@@ -1,0 +1,37 @@
+*{
+    overflow: hidden;
+    
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.left
+{
+    align-self: flex-start;
+    width: 25%;
+    
+}
+.aside{
+    height:98vh;
+    margin: 0px 5px;
+    
+ }
+.right{
+    align-self: flex-end;
+    width: 75%;
+}
+.header,.footer{
+    background-color: lightcoral;
+    height: 9vh;
+}
+.article{
+    background-color: aquamarine;
+
+    height: 80vh;
+}
+.aside{
+    background-color: lightgreen;
+}

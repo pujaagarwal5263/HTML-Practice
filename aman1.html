@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aman1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Contact Form</h1>
+            <small>Please fill in the text in the fields.</small>
+        </div>
+        <div class="lower">
+            <p>Your Name:</p>
+            <input type="text" name="name" placeholder="Your full name">
+            <p>Your Email:</p>
+            <input type="email" name="mail" placeholder="Valid Email Address">
+            
+            <fieldset>
+                <legend>Gender</legend>
+            <p>Male: <input type="radio" name="gender" id="" required></p>
+            <p>Female: <input type="radio" name="gender" id="" required></p>
+            </fieldset>
+            
+            <p>Message:</p>
+            <textarea name="text" cols="20" rows="3" placeholder="Enter your message here"></textarea>
+            <p>Subject:</p>
+            <select name="myop" >
+                <option value="Select">--Select any one--</option>
+                <option value="Salary related">Salary Related issue</option> 
+                <option value="Job Enquiry">Job Enquiry</option>
+            </select>
+            <br>
+            <input type="submit" value="Send">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    margin: 20px 30px;
+    background: inherit;
+}
+.heading{
+    text-align: center;
+    padding: 5px;
+}
+.row{
+    display: flex;
+}
+input{
+    margin: 5px 5px;
+}
+input[type="submit"]{
+    color: white;
+    background: none;
+    padding: 10px;
+    border: 2px solid white;   
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: blue;   
+}

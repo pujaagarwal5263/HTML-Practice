@@ -1,0 +1,24 @@
+nav{
+    background-color: rgb(86, 96, 105);
+    padding: 10px;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    float: right;
+}
+.sticky{
+    background-color: palevioletred;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    margin: 5px 0%;
+    font-size: large;
+    padding: 5%;
+}
+.main{
+    position: sticky;
+    top: 0px;
+}

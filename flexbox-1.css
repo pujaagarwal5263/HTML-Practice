@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+}
+#one{
+  background-color: slateblue;
+}
+.large{
+    width: 32%;
+    background-color: springgreen;
+    margin: 2px;
+    align-items: flex-start;
+    padding: 5px;
+}
+.med{
+    width: 24%;
+    background-color: lightcoral;
+    margin: 2px;
+    align-items: flex-start;
+    padding: 5px;
+}
+.small{
+    width: 19%;
+    background-color: lightseagreen;
+    margin: 2px;
+    align-items: flex-start;
+    padding: 5px;
+}

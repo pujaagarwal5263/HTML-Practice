@@ -1,0 +1,15 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+.mydiv{
+    background-color: rgb(27, 147, 216);
+    padding: 2px;
+    margin: 5px;
+}
+.divA img,.divC img{
+    float: left;
+}
+.divB img, .divD img{
+    float: right;
+}
